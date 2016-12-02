@@ -1,0 +1,14 @@
+# server na ktory zalohujem
+# v tvare ftp://meno:heslo@host/dir
+FTPSERVER="ftp://zalohy:zalohy@127.0.0.1/zalozna/"
+
+# koncovka suboru na ulozenie logov
+# logfile ma nazov napr tvaru YYYYMMDDHHMMSS-change.log
+LOGFILE="change.log"
+ 
+# pri difference pouzivam nasledujuce znaky 
+# ktore indikuju co sa stalo so suborom
+ADDEDCHAR='+'		# novy
+DELETEDCHAR='-'		# zmazany
+CHANGEDCHAR='*'		# zmeneny
+UNCHANGEDCHAR='#'	# nezmeneny
